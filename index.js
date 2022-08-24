@@ -12,7 +12,7 @@ const server = new ApolloServer({
   }
 });
 
-const PORT = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 
 mongoose.connect('mongodb+srv://shreyaslshah:shreyasshah@cluster0.bakje.mongodb.net/Cluster0?retryWrites=true&w=majority', { useNewUrlParser: true })
   .then(() => {
